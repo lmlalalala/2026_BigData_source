@@ -1,0 +1,2 @@
+Experiment,Model,BestParams,CV_Best_ROC_AUC,Test_Accuracy,Test_Precision,Test_Recall,Test_F1,Test_ROC_AUC
+Exp-3 + GridSearchCV,RandomForest,"{'clf__max_depth': 5, 'clf__min_samples_split': 2, 'clf__n_estimators': 100}",0.8736959232486209,0.8212290502793296,0.7846153846153846,0.7391304347826086,0.7611940298507462,0.8486166007905138

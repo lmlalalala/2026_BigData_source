@@ -1,0 +1,5 @@
+Experiment,Model,Missing,Encoding,Scaling,FeatureSelection,Description,Accuracy,Precision,Recall,F1,ROC_AUC
+Exp-1,LogisticRegression,mean,onehot,standard,X,Mean imputation + One-Hot + StandardScaler,0.8435754189944135,0.8253968253968254,0.7536231884057971,0.7878787878787878,0.8740447957839264
+Exp-3,LogisticRegression,most_frequent,onehot,robust,O,Most frequent imputation + One-Hot + RobustScaler + SelectKBest,0.8100558659217877,0.7868852459016393,0.6956521739130435,0.7384615384615385,0.8610013175230568
+Exp-1,RandomForest,mean,onehot,standard,X,Mean imputation + One-Hot + StandardScaler,0.7988826815642458,0.746268656716418,0.7246376811594203,0.7352941176470589,0.8316205533596839
+Exp-3,RandomForest,most_frequent,onehot,robust,O,Most frequent imputation + One-Hot + RobustScaler + SelectKBest,0.8156424581005587,0.7647058823529411,0.7536231884057971,0.7591240875912408,0.8303030303030303

@@ -1,0 +1,13 @@
+Column,Description,Type
+PassengerId,Passenger identifier,Identifier
+Survived,"Survival status: 0 = No, 1 = Yes",Target
+Pclass,Ticket class: 1/2/3,Ordinal categorical / numeric
+Name,Passenger name,Text
+Sex,Passenger sex,Categorical
+Age,Passenger age,Numeric
+SibSp,Number of siblings/spouses aboard,Numeric
+Parch,Number of parents/children aboard,Numeric
+Ticket,Ticket number,Text
+Fare,Passenger fare,Numeric
+Cabin,Cabin number,Categorical/Text
+Embarked,Port of embarkation,Categorical
